@@ -34,7 +34,7 @@ Le projet utilise TypeScript pour un typage strict et des tests unitaires pour g
 
 1. Cloner le dépôt
 ```bash
-git clone <url-du-repo>
+git clone https://github.com/kadriyassine/card-frontend
 cd card-frontend
 ```
 
