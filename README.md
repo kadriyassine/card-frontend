@@ -141,9 +141,9 @@ npm run test:coverage
 
 ## Contact
 
-Développé par [Ton Nom]  
-GitHub : [ton-github]  
-Email : [ton-email]
+Développé par Kadri Yassine  
+GitHub : https://github.com/kadriyassine  
+Email : yesine.kadri@gmail.com
 
 ---
 
