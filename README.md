@@ -26,7 +26,6 @@ Le projet utilise TypeScript pour un typage strict et des tests unitaires pour g
 - Vite (outil de build rapide)
 - Vitest (framework de test)
 - Testing Library (tests centrés utilisateur)
-- TailwindCSS (pour le style, optionnel)
 
 ---
 
