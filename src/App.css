@@ -1,0 +1,90 @@
+/* Styles de base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Conteneur principal */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Titre */
+.app-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+/* Chargement */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.loading-spinner {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Erreur */
+.error-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8d7da;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.error-message {
+  color: #721c24;
+  margin-bottom: 20px;
+}
+
+/* Boutons */
+.retry-button,
+.new-hand-button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.retry-button:hover,
+.new-hand-button:hover {
+  background-color: #2980b9;
+}
+
+.new-hand-button {
+  background-color: #2ecc71;
+}
+
+.new-hand-button:hover {
+  background-color: #27ae60;
+}
